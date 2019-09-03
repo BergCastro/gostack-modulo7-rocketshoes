@@ -38,7 +38,7 @@ export const ProductTable = styled.table`
     padding: 12px;
   }
 
-  tbody {
+  tbody td {
     padding: 12px;
     border-bottom: 1px solid #eee;
   }
