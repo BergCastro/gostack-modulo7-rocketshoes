@@ -19,8 +19,15 @@ yarn
 
 ## Running
 
+### Frontend
+
+`yarn start`
+
+### API fake json-server
+
 ```
-yarn start
+yarn global add json-server
+json-server server.json -p 3333
 ```
 
 ## Author
