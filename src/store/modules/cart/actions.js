@@ -1,17 +1,23 @@
-export function addToCard(product) {
+export function addToCardRequest(id) {
   return {
-    type: 'ADD_TO_CART',
+    type: '@cart/ADD_REQUEST',
+    id,
+  };
+}
+export function addToCardSuccess(product) {
+  return {
+    type: '@cart/ADD_SUCCESS',
     product,
   };
 }
 
 export function removeFromCart(id) {
-  return { type: 'REMOVE_FROM_CART', id };
+  return { type: '@cart/REMOVE', id };
 }
 
 export function updateAmount(id, amount) {
   return {
-    type: 'UPDATE_AMOUNT_CART',
+    type: '@cart/UPDATE_AMOUNT',
     id,
     amount,
   };
