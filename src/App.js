@@ -14,7 +14,7 @@ import store from './store';
 function App() {
   return (
     <Provider store={store}>
-      <Router>
+      <Router history={history}>
         <Header />
         <Routes />
         <GlobalStyle />
