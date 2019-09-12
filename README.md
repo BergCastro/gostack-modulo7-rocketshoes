@@ -8,7 +8,7 @@ https://rocketseat.com.br/bootcamp
 
 ## Description
 
-Aplicação em Raect e Redux de uma loja virtual de tênis. Módulo 7 do Bootcamp GoStack da Rocketseat.
+Aplicação em React, Redux e Hooks de uma loja virtual de tênis. Módulo 7 do Bootcamp GoStack da Rocketseat.
 
 ## Installing
 
